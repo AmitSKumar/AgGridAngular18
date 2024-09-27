@@ -40,4 +40,6 @@ export class OffertableComponent implements OnInit {
       this.rowData = data;
     });
   }
+  public paginationPageSize = 10;
+  public paginationPageSizeSelector: number[] | boolean = [10, 25, 50];
 }
